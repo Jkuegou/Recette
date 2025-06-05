@@ -16,7 +16,7 @@ function RecipeCard({ recipe, onToggleFavorite, isFavorite }) {
         {showDetails ? 'Masquer Détails' : 'Voir Recette'} 
       </button> 
        
-      <button  
+      <button  id='c'
         onClick={() => onToggleFavorite(recipe.id)} 
         className={isFavorite ? 'favorited' : 'not-favorited'} 
       > 
